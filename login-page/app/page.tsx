@@ -6,9 +6,11 @@ import { Input } from "@/components/ui/input"
 export default function Home() {
   return (
     <div>
+      <form>
       <Input type="email" placeholder="Email" required />
       <Input type="password" placeholder="password" required />
-      <Button>Button</Button>
+      <Button type="submit">Button</Button>
+      </form>
     </div>
     
   );
